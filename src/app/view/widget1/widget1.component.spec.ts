@@ -1,23 +1,21 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ViewComponent } from './view.component';
-import { Widget1Component } from './widget1/widget1.component';
-import { Widget2Component } from './widget2/widget2.component';
+import { Widget1Component } from './widget1.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-describe('ViewComponent', () => {
-  let component: ViewComponent;
-  let fixture: ComponentFixture<ViewComponent>;
+describe('Widget1Component', () => {
+  let component: Widget1Component;
+  let fixture: ComponentFixture<Widget1Component>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ViewComponent, Widget1Component, Widget2Component],
+      declarations: [Widget1Component],
       imports: [FormsModule, ReactiveFormsModule]
     }).compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ViewComponent);
+    fixture = TestBed.createComponent(Widget1Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
