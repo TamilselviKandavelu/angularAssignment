@@ -20,7 +20,7 @@ describe('ListComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create the list component', () => {
     expect(component).toBeTruthy();
   });
 });
