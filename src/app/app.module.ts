@@ -9,9 +9,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Widget1Component } from './view/widget1/widget1.component';
 import { Widget2Component } from './view/widget2/widget2.component';
+import { EditComponent } from './edit/edit.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, ViewComponent, ListComponent, Widget1Component, Widget2Component],
+  declarations: [AppComponent, NavbarComponent, ViewComponent, ListComponent, Widget1Component, Widget2Component, EditComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
